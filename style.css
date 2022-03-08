@@ -23,24 +23,24 @@
 
 /* start hero */
 .hero {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 125px;
+    margin-top: 20px;
+    padding: 10px 100px 0px;
 }
 
 
 
 .hero-text {
-    width: 450px;
+    justify-content: center;
 }
 
 .hero-text h1 {
-    font-size: 44px;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: 200;
 }
 
 .hero-text p {
-    font-size: 16px;
+    font-size: 20px;
+    
 }
 
 .hero-text h1, .hero-text p {
@@ -54,6 +54,12 @@
     font-size: 20px;
     color: #ffffff;
     
+}
+
+.pt-text {
+    padding: 0px 30px 10px;
+    text-align: center;
+    font-size: 20px;
 }
 
 /* start post */
@@ -105,6 +111,12 @@
 .post-content-detail label {
     font-size: 18px;
     padding: 2px;
+}
+
+.form-isi {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
 }
 
 /* start feature */
@@ -193,13 +205,19 @@
 
     .hero {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
 
     }
 
     .hero-image {
         display: flex;
         justify-content: center;
+    }
+
+    .hero-image img {
+        max-width:450px;
+        height: auto;
+
     }
     .hero-text {
         text-align: center;
@@ -214,6 +232,10 @@
     .post-content {
         display: flex;
         flex-direction: column;
+    }
+
+    .form-isi iframe {
+        height: 1740px;
     }
     
     .feature {
